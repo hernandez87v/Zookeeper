@@ -15,7 +15,6 @@ content:
 - A pyramid!
 - Poetry
 - Triple-quoted string
-- List from string
 - Single-element list
 - Reveal the hidden
 - An empty list!
@@ -25,3 +24,4 @@ content:
 - Find the third number
 - Update a list
 - Tail
+- List from string
