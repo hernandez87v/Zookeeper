@@ -3,5 +3,10 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-print(4 * (a + b + c))
-# print(2 * (ab + bc + ac))
+s = 4 * (a + b + c)
+surface_area = 2 * ((a * b) + (b * c) + (a * c))
+vol = a * b * c
+
+print(s)
+print(surface_area)
+print(vol)
