@@ -4,4 +4,4 @@ total_food_cost = int(input())
 flight_cost = int(input())
 one_night_hotel = int(input())
 
-print((duration_days * total_food_cost + one_night_hotel) + flight_cost)
+print((one_night_hotel * (duration_days - 1)) + (duration_days * total_food_cost + (flight_cost * 2)))
