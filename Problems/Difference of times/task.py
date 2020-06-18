@@ -1,16 +1,16 @@
 # put your python code here
-input1 = int(abs(input()))
-input2 = int(abs(input()))
-input3 = int(abs(input()))
+hours = abs(int(input()))
+minutes = abs(int(input()))
+seconds = abs(int(input()))
 
-hours = 3600 * input1
-minutes = 60 * input2
-seconds = 1 * input3
+hours2 = abs(int(input())) - hours
+minutes2 = abs(int(input())) - minutes
+seconds2 = abs(int(input())) - seconds
 
-hours2 = 1 - hours
-minutes2 = 2 - minutes
-seconds2 = 2 - seconds
+hours_seconds = 3600 * hours2
+minutes_seconds = 60 * minutes2
+seconds_seconds = 1 * seconds2
 
-result = hours2 + minutes2 + seconds2
+result = hours_seconds + minutes_seconds + seconds_seconds
 
 print(result)
